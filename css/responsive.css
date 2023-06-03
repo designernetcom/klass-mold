@@ -253,6 +253,9 @@
 	}
 }
 @media only screen and (max-width: 600px){
+	.header-top {
+		display: none;
+	}
 	.service-block {
 		text-align: center;
 	}
@@ -261,6 +264,9 @@
 	}
 }
 @media only screen and (max-width: 1023px){
+	.project-section .tabs-content .image {
+		display: none;
+	}
 	
 	.main-header .main-box .logo-box {
 		position:relative;
@@ -851,13 +857,13 @@
 	.main-header .nav-outer .mobile-nav-toggler{
 		display: block;
 		margin: 0px;
-		color: #000000;
+		color: #000000 !important;
 		padding: 15px 0px;
 	}
 	
 	#navbarSupportedContent{
 		display:block;
-	background-color: rgba(var(--black-color-rgb), 0.90);
+	/* background-color: rgba(var(--black-color-rgb), 0.90); */
 
 	}
 	
@@ -887,7 +893,9 @@
 	.main-header .sticky-header .mobile-nav-toggler{
 		display:block;
 	}
-	
+	.main-header .mobile-nav-toggler{
+		display:block;
+	}
 	.sec-title .text br,
 	.header-top .top-right .clock{
 		display:none;

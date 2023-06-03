@@ -1529,9 +1529,9 @@ img{
 	border-radius:50px;
 	display:inline-block;
 	color: var(--white-color);
-	font-size: var(--font-16);
+	font-size: var(--font-14);
 	text-transform: capitalize;
-	padding: 8px;
+	padding: 8px 12px;
 	padding-left: 12px;
 	background: var(--color-fourty); 
 	font-family:var(--font-family-BeVietnam);
@@ -2091,7 +2091,7 @@ img{
 	position: relative;
 	display:block;
     font-weight:600;
-	font-size:var(--font-20);
+	font-size:30px;
 	color:var(--color-fourtytwo);
 	margin-bottom:var(--margin-bottom-20);
 }
