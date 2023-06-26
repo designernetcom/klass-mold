@@ -186,18 +186,20 @@
 			loop:true,
 			margin:0,
 			// nav:true,
-			margin: 30,
+			margin: 20,
 			smartSpeed: 500,
 			autoplay: 4000,
 			navText: [ '<span class="flaticon-left-arrow"></span>', '<span class="flaticon-right-arrow"></span>' ],
 			responsive:{
 				0:{
-					items:1,
+					items:2,
 					nav: false,
+					margin: 10,
 				},
 				480:{
 					items:2,
 					nav: false,
+					margin: 10,
 				},
 				600:{
 					items:3,
