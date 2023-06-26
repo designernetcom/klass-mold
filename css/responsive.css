@@ -1,5 +1,16 @@
 /* Industo Industry HTML Template */
 
+@media only screen and (max-width: 991px){
+	.machinary-section .row {
+  flex-direction: column-reverse;
+	}
+	.machinary-section-1 {
+		margin-bottom: 20px;
+	}
+	.machinary-section img {
+		margin-bottom: 20px;
+	}
+}
 @media only screen and (max-width: 2200px){
 	
 	.main-slider-three .social-box{
@@ -252,6 +263,7 @@
 		opacity:0;
 	}
 }
+
 @media only screen and (max-width: 600px){
 	.header-top {
 		display: none;
@@ -264,6 +276,7 @@
 	}
 }
 @media only screen and (max-width: 1023px){
+
 	.project-section .tabs-content .image {
 		display: none;
 	}
@@ -427,9 +440,19 @@
 	.project-section .btns-outer .tab-buttons{
 		max-width:inherit;
 		text-align:center;
-		padding-left:var(--padding-left-25);
+		/* padding-left:var(--padding-left-25); */
 	}
-	
+	.welcome-section .sec-title-three .title {
+		font-size: 20px;
+		margin-bottom: 10px;
+		line-height: 30px;
+	}
+	.welcome-section .sec-title-three h6 {
+		font-size: 16px;
+	}
+	.welcome-section .row {
+		flex-direction: column-reverse;
+	}
 	.project-section .tab-btns .tab-btn{
 		border-radius:4px;
 		padding:10px 24px;
@@ -438,7 +461,11 @@
 		font-size:var(--font-18);
 		border:2px solid var(--white-color);
 	}
-	
+	.welcome-section {
+		position: relative;
+		overflow: hidden;
+		padding: 30px 0px 30px;
+	}
 	.project-section .tab-btns .tab-btn:before,
 	.project-section .tab-btns .tab-btn:after{
 		display:none;
@@ -754,6 +781,26 @@
 }
 
 @media only screen and (max-width: 767px){
+	.organization {
+		padding: 40px 0px;
+	}
+	.machinary-section {
+		padding: 40px 0px;
+	}
+
+	.choose-img {
+		text-align: center;
+		margin-bottom: 20px;
+	
+	}
+	
+	.clients-section{
+		position:relative;
+		padding: 40px 0px 0px;
+	}
+	.sec-title {
+		margin-bottom: 20px;
+	}
 	
 	.header-upper .logo-outer {
 		position:relative;
@@ -858,7 +905,7 @@
 		display: block;
 		margin: 0px;
 		color: #000000 !important;
-		padding: 15px 0px;
+		padding: 30px 0px;
 	}
 	
 	#navbarSupportedContent{
@@ -939,12 +986,10 @@
 	
 	.products-section,
 	.service-section-two{
-		padding:60px 0px;
+		padding:40px 0px;
 	}
 	
-	.project-section{
-		padding-bottom:var(--padding-bottom-100);
-	}
+
 	
 	.cta-section h2{
 		line-height:54px;
@@ -1090,6 +1135,7 @@
 }
 
 @media only screen and (max-width: 599px){
+	
 	
 	.cta-section h2 br,
 	.main-slider-three .social-box,
@@ -1253,7 +1299,9 @@
 	.service-block-two .inner-box .overlay-box{
 		right:0px;
 	}
-	
+	.machinary-section {
+		padding: 40px 0px;
+	}
 	.project-section .content{
 		position:relative;
 		padding:25px 25px;
