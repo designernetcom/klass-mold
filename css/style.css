@@ -12106,7 +12106,7 @@ margin-left: 20px;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .career-image {
-	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
 	text-align: center;
 }
 .image-gal img {
@@ -12125,4 +12125,13 @@ margin-left: 20px;
 .certifications img {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	padding: 20px;
+}
+.product-page {
+	padding: 60px 0px;
+}
+.contact-form-section h2 {
+	font-size: 35px;
+}
+.contact-page-section h2 {
+	font-size: 35px;
 }
